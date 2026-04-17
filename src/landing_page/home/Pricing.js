@@ -13,7 +13,7 @@ function Pricing() {
           <Link to="" style={{ textDecoration: "none" }}>
             See Pricing{" "}
             <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-          </a>
+          </Link>
         </div>
         <div className="col-2"></div>
         <div className="col-6  mb-5">
