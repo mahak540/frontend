@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom"
 function LeftSection({
   imageURL,
   productName,
@@ -13,22 +13,22 @@ function LeftSection({
     <div className="container mt-5">
       <div className="row">
         <div className="col-6">
-          <img src={imageURL} />
+          <img src={imageURL} alt=""/>
         </div>
         <div className="col-6 p-5 mt-5">
           <h1>{productName}</h1>
           <p>{productDesription}</p>
           <div>
-            <Link href={tryDemo}>Try Demo</Link>
-            <Link href={learnMore} style={{ marginLeft: "50px" }}>
+            <Link to={tryDemo}>Try Demo</Link>
+            <Link to={learnMore} style={{ marginLeft: "50px" }}>
               Learn More
             </Link>
           </div>
           <div className="mt-3">
-            <Link href={googlePlay}>
+            <Link to={googlePlay}>
               <img src="media/images/googlePlayBadge.svg" alt="playbadge" />
             </Link>
-            <Link href={appStore}>
+            <Link to={appStore}>
               <img
                 src="media/images/appstoreBadge.svg" alt="badge"
                 style={{ marginLeft: "50px" }}
