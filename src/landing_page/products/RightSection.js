@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom"
 function RightSection({ imageURL, productName, productDesription, learnMore }) {
   return (
     <div className="container mt-5">
@@ -8,11 +8,11 @@ function RightSection({ imageURL, productName, productDesription, learnMore }) {
           <h1>{productName}</h1>
           <p>{productDesription}</p>
           <div>
-            <a href={learnMore}>Learn More</a>
+            <Link href={learnMore}>Learn More</Link>
           </div>
         </div>
         <div className="col-6">
-          <img src={imageURL} />
+          <img src={imageURL}  alt=""/>
         </div>
       </div>
     </div>
