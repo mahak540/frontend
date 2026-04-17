@@ -8,7 +8,7 @@ export default function Invest(){
             <div className="row mb-5" style={{textAlign:"center"}}>
                 <div className="col-4 offset-1" style={{display:"flex"}}>
                     <div className="col-6">
-                        <img src="st.svg"style={{width:"100px"}} ></img>
+                        <img src="st.svg" al="st" style={{width:"100px"}} ></img>
                     </div>
                     <div className="col-6">
                         <h4>Stocks</h4>
@@ -17,7 +17,7 @@ export default function Invest(){
                 </div>
                 <div className="col-6" style={{display:"flex"}}>
                     <div className="col-6"> 
-                        <img src="mutualfund.svg" style={{width:"100px"}}></img>
+                        <img src="mutualfund.svg" alt="mutualfuns" style={{width:"100px"}}></img>
                     </div>
                     <div className="col-6">
                         <h4>Mutual funds</h4>
@@ -28,7 +28,7 @@ export default function Invest(){
             <div className="row" style={{textAlign:"center"}}>
                 <div className="col-4 offset-1" style={{display:"flex"}}>
                     <div className="col-6">
-                        <img src="ipo.svg" style={{width:"100px"}}></img>
+                        <img src="ipo.svg" alt="ipo" style={{width:"100px"}}></img>
                     </div>
                     <div className="col-6">
                         <h4>IPO</h4>
@@ -37,7 +37,7 @@ export default function Invest(){
                 </div>
                 <div className="col-6" style={{display:"flex"}}>
                     <div className="col-6">
-                        <img src="future.svg" style={{width:"100px"}}></img>
+                        <img src="future.svg" alt="future" style={{width:"100px"}}></img>
                     </div>
                     <div className="col-6">
                         <h4>Futures & options</h4>
