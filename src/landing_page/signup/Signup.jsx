@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../Nav";
+
 import Signu from "./Signu";
 import Signupnow from "./Signupnow";
 import Invest from "./Invest";
@@ -11,7 +11,7 @@ import Footer from "../Footer";
 export default function Signup(){
     return(
         <>
-        <Nav/>
+       
         <Signu/>
         <Signupnow/>
         <Invest/>
