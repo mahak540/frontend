@@ -6,7 +6,7 @@ export default function Steps(){
             <h3 style={{textAlign:"center",opacity:0.87}} className="p-5">Steps to open a demat account with Zerodha</h3>
             <div className="row mb-5">
                 <div className="col-5 offset-1">
-                    <img src="yt.svg"></img>
+                    <img src="yt.svg" alt="yt" ></img>
                 </div>
                 <div className="col-5">
                     <div className="mb-4">
