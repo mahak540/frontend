@@ -5,7 +5,7 @@ export default function Signupnow(){
         <div className="container">
             <div className="row mb-5">
                 <div className="col-6 offset-1">
-                    <img src="sign.svg" style={{width:"100%"}}></img>
+                    <img src="sign.svg" alt="signup"  style={{width:"100%"}}></img>
                 </div>
                 <div className="col-4 ">
                     <h3>Signup now</h3>
