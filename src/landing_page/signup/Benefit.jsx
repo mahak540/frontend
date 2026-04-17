@@ -5,7 +5,7 @@ export default function Benefit(){
         <div className="container">
             <div className="row">
                 <div className="col-6 p-5">
-                    <img src="benfit.svg" style={{width:"400px" , height:"50vh"}}></img>
+                    <img src="benfit.svg" alt="benefit" style={{width:"400px" , height:"50vh"}}></img>
                     <h5 style={{opacity:0.87}}>Benefits of opening a Zerodha demat account</h5>
                 </div>
                 <div className="col-6">
