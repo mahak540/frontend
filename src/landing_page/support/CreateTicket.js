@@ -48,7 +48,7 @@ function CreateTicket() {
           </h4>
           <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
-          </a>
+          </Link>
           <br />
           <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Offline Account Opening
