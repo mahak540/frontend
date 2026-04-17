@@ -6,7 +6,7 @@ import Invest from "./Invest";
 import Steps from "./Steps";
 import Benefit from "./Benefit";
 import Explore from "./Explore";
-import OpenAccount from "./OpenAccount";
+import Open from "./Open";
 import Footer from "../Footer";
 export default function Signup(){
     return(
@@ -18,7 +18,7 @@ export default function Signup(){
         <Steps/>
         <Benefit/>
         <Explore/>
-        <OpenAccount/>
+        <Open/>
         <Footer/>
         </>
     )
