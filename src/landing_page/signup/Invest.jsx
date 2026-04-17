@@ -8,7 +8,7 @@ export default function Invest(){
             <div className="row mb-5" style={{textAlign:"center"}}>
                 <div className="col-4 offset-1" style={{display:"flex"}}>
                     <div className="col-6">
-                        <img src="st.svg" al="st" style={{width:"100px"}} ></img>
+                        <img src="st.svg" alt="st" style={{width:"100px"}} ></img>
                     </div>
                     <div className="col-6">
                         <h4>Stocks</h4>
