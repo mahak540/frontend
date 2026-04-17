@@ -23,7 +23,7 @@ function Hero() {
           <h1 className="fs-3">Featured</h1>
           <ol>
             <li>
-              <Link to="">Current Takeovers and Delisting - January 2024</a>
+              <Link to="">Current Takeovers and Delisting - January 2024</Link>
             </li>
             <li>
               <Link to="">Latest Intraday leverages - MIS & CO</Link>
