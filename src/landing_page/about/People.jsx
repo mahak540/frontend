@@ -6,7 +6,7 @@ export default function People(){
             <h2 style={{textAlign:"center"}} className="mb-5 fs-2">People</h2>
             <div className="row mb-5">
                 <div className="col-6 mb-5 "style={{textAlign:"center"}}>
-                    <img src="ceo.jpg" className="card-img-top rounded-circle p-2" style={{width:"300px"}}></img>
+                    <img src="ceo.jpg" alt="" className="card-img-top rounded-circle p-2" style={{width:"300px"}}></img>
                     <h4 className="fs-5">Nithin Kamath</h4>
                     <p style={{opacity:"0.90"}}>Founder and CEO</p>
                 </div>
@@ -18,7 +18,7 @@ export default function People(){
             </div>
             <div className="row mb-5" style={{textAlign:"center"}}>
                 <div className="col-4" >
-                    <img className="card-img-top rounded-circle p-2" src="cfo.jpg" alt="Card image" style={{ width: "300px" }}></img>
+                    <img className="card-img-top rounded-circle p-2" src="cfo.jpg" alt="" style={{ width: "300px" }}></img>
                     <div className="card-body">
                         <h4 className="card-title">Nikhil Kamath</h4>
                         <p className="card-text">Co-founder & CFO</p>
@@ -35,7 +35,7 @@ export default function People(){
                     </div>
                 </div>
                 <div className="col-4" >
-                    <img className="card-img-top rounded-circle p-2" src="cto.jpg" alt="Card image" style={{ width: "300px" }}></img>
+                    <img className="card-img-top rounded-circle p-2" src="cto.jpg" alt="cto" style={{ width: "300px" }}></img>
                     <div className="card-body">
                         <h4 className="card-title">Dr. Kailash Nadh</h4>
                         <p className="card-text">CTO</p>
@@ -52,7 +52,7 @@ export default function People(){
                     </div>
                 </div>
                 <div className="col-4">
-                    <img className="card-img-top rounded-circle p-2" src="coo.jpg" alt="Card image" style={{ width: "300px" }}></img>
+                    <img className="card-img-top rounded-circle p-2" src="coo.jpg" alt="coo" style={{ width: "300px" }}></img>
                     <div className="card-body">
                         <h4 className="card-title">Venu Madhav</h4>
                         <p className="card-text">COO</p>
@@ -71,7 +71,7 @@ export default function People(){
 
              <div className="row" style={{textAlign:"center"}}>
                 <div className="col-4" >
-                    <img className="card-img-top rounded-circle p-2" src="director.jpg" alt="Card image" style={{ width: "300px" }}></img>
+                    <img className="card-img-top rounded-circle p-2" src="director.jpg" alt="director" style={{ width: "300px" }}></img>
                     <div className="card-body">
                         <h4 className="card-title">Seema Patil</h4>
                         <p className="card-text">Director</p>
@@ -87,7 +87,7 @@ export default function People(){
                     </div>
                 </div>
                 <div className="col-4">
-                    <img className="card-img-top rounded-circle p-2" src="coe.jpg" alt="Card image" style={{ width: "300px" }}></img>
+                    <img className="card-img-top rounded-circle p-2" src="coe.jpg" alt="coe" style={{ width: "300px" }}></img>
                     <div className="card-body">
                         <h4 className="card-title">Karthik Rangappa</h4>
                         <p className="card-text">Chief of Education</p>
@@ -103,7 +103,7 @@ export default function People(){
                     </div>
                 </div>
                 <div className="col-4">
-                    <img className="card-img-top rounded-circle p-2" src="ds.jpg" alt="Card image" style={{ width: "300px" }}></img>
+                    <img className="card-img-top rounded-circle p-2" src="ds.jpg" alt="ds" style={{ width: "300px" }}></img>
                     <div className="card-body">
                         <h4 className="card-title">Austin Prakesh</h4>
                         <p className="card-text">Director Strategy</p>
