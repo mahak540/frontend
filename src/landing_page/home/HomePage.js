@@ -7,7 +7,7 @@ import Education from "./Education";
 
 import OpenAccount from "../OpenAccount";
 
-import Footer from "../Footer";
+
 
 function HomePage() {
   return (
@@ -18,7 +18,7 @@ function HomePage() {
       <Pricing />
       <Education />
       <OpenAccount />
-      <Footer />
+      
     </>
   );
 }
