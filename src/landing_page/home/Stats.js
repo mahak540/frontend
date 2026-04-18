@@ -35,7 +35,7 @@ function Stats() {
               Explore our products{" "}
               <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
             </Link>
-            <Link href="" style={{ textDecoration: "none" }}>
+            <Link to="https://dashboard-0ry9.onrender.com" style={{ textDecoration: "none" }}>
               Try Kite demo{" "}
               <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
             </Link>
