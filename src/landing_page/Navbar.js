@@ -82,9 +82,7 @@ function Navbar() {
                   Support
                 </Link>
               </li>
-             
-            </ul>
-             <li className="nav-item">
+                <li className="nav-item">
                  {
                     !user ? (
 
@@ -101,6 +99,8 @@ function Navbar() {
   )
 }
               </li>
+            </ul>
+          
     
         </div>
       </div>
