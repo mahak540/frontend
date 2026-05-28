@@ -9,7 +9,7 @@ export default function ProtectedRoute({ children }) {
   useEffect(() => {
     const checkUser = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/current-user", {
+        const res = await axios.get("https://zerodha-backend-09p1.onrender.com/current-user", {
           withCredentials: true,
         });
 
