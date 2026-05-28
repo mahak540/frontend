@@ -18,7 +18,7 @@ export default function Login() {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/login",
+        "https://zerodha-backend-09p1.onrender.com/login",
         {
           email,
           password
