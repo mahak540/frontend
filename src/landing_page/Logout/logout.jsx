@@ -7,7 +7,7 @@ export default function LogoutButton() {
 
   const handleLogout = async () => {
     try {
-      await axios.get("http://localhost:5000/logout", {
+      await axios.get("https://zerodha-backend-09p1.onrender.com/logout", {
         withCredentials: true
       });
 
