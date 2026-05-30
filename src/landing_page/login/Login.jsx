@@ -76,11 +76,7 @@ export default function Login() {
               />
             </label>
 
-            <div className="login-options">
-              <a href="/forgot-password" className="forgot-link">
-                Forgot password?
-              </a>
-            </div>
+            
 
             <button type="submit">
               Login
