@@ -43,9 +43,11 @@ export default function Signup() {
 
     } catch (err) {
 
-      console.log(err);
+     console.log("ERROR:", err.response?.data);
 
-      alert("Signup Failed frontend not working");
+  alert(
+    err.response?.data?.message || "Signup Failed"
+  );
     }
   };
 
