@@ -29,7 +29,7 @@ export default function VerifyOTP() {
 
       console.log(response.data);
       await axios.post(
-        "http://localhost:5000/set-password",
+        "https://zerodha-backend-09p1.onrender.com/set-password",
         {
           email,
           password
