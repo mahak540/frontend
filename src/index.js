@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-
 import HomePage from "./landing_page/home/HomePage";
 import Signup from "./landing_page/signup/Signup";
 import AboutPage from "./landing_page/about/AboutPage";
@@ -15,7 +14,6 @@ import LogoutButton from "./landing_page/Logout/logout";
 import NotFound from "./landing_page/NotFound";
 import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
-import ProtectedRoute from "./landing_page/ProtectedRoute.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
