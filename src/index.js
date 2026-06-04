@@ -15,6 +15,7 @@ import LogoutButton from "./landing_page/Logout/logout";
 import NotFound from "./landing_page/NotFound";
 import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
+import ProtectedRoute from "./landing_page/ProtectedRoute.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
