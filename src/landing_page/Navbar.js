@@ -29,9 +29,7 @@ function Navbar() {
     }
 
     fetchUser();
- const interval = setInterval(fetchUser, 2000);
 
-  return () => clearInterval(interval);
 },[])
   return (
     <nav
